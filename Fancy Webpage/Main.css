@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    height: 2000px;
+    background-color:black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("HTMLProjectAssets/HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg");
+    background-repeat: no-repeat;
+    background-position-y: -200px;
+
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+h1 {
+    color: white;
+    font-family: 'Big Shoulders';
+    font-weight: 900;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: white;
+}
+h2 {
+    font-family: 'Big Shoulders';
+    text-align: start;
+    font-size: 50px;
+    padding-top: 50px
+}
+p {
+ font-size: 30px;
+ font-family:'Raleway';
+ font-weight: 100;
+ color: white;
+ text-align:start;
+}
+.title {
+    position: absolute;
+    font-size: 60px;
+    top: 250px;
+    left: 30%;
+    right: 30%;
+    text-align:center;
+}
+.subtitle {
+    position: absolute;
+    font-size: 60px;
+    top: 480px;
+    left: 10%;
+    right: 10%;
+    text-align:center;
+}
+ul {
+    padding-left: 10px;
+    font-family:'Big Shoulders';
+    color: white;
+}
+li {
+    display: inline;
+    padding-right: 10px;
+    color: white;
+    font-family:'Raleway';
+}
+ .nav2 {
+    float: right;
+    margin-right: 10px; 
+}
+.nav {
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 30px;
+    border-style:solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    height: 40px;
+    color: white;
+    z-index: 1;
+}
+ul#flex-container {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 1080px
+}
+
+ul#flex-container li {
+    display: flex;
+    flex-grow: 0;
+    background-color: black;
+    width:1000px;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+ul#flex-container li:first-child { 
+    flex: 1;
+    flex-grow: 2;
+    padding: 0px;
+    list-style-type: none;
+}
+ul#flex-container li:nth-child(2) {
+    background-color: black;
+    flex-grow: 0.4;
+    padding-left: 100px
+}
+ul#flex-container li:nth-child(3) {
+    background-color: black;
+    flex-grow: 0.4;
+    padding-left: 100px
+}
+ul#flex-container li:nth-child(4) {  
+    flex: 1;
+    flex-grow: 2;
+    padding: 0px;
+    list-style-type: none;
+}
+ul#flex-container li:nth-child(5) {  
+    flex: 1;
+    flex-grow: 2;
+    padding: 0px;
+    list-style-type: none;
+    background-color: black;
+}
+
+
+ul#flex-container li img{
+ width: 100%;
+ height: 100%;
+}
+
